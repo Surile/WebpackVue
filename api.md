@@ -1,4 +1,4 @@
-### api
+# 王者荣耀故事 api
 
     1.英雄列表
         https://story.naice.me/api/hero
