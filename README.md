@@ -2,7 +2,7 @@
 
 > ✎ 线上预览
 
-    查看: https://surile.github.io/WebpackVue/
+    查看:  [https://surile.github.io/WebpackVue/](https://surile.github.io/WebpackVue/)
 
 ## 本地运行
 
