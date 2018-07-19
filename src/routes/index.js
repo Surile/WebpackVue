@@ -5,6 +5,7 @@ import WordList from '../views/Words/WordList'
 import WordItem from '../views/Words/WordItem'
 import Word from '../views/Words/Word'
 import Skins from '../views/Skins'
+import Voice from '../views/Voice'
 const routes = [
     {
         path: '/',
@@ -40,6 +41,11 @@ const routes = [
         path: '/skins',
         name: '皮肤鉴赏',
         component: Skins
+    },
+    {
+        path: '/voice',
+        name: '语音鉴赏',
+        component: Voice
     }
 ]
 

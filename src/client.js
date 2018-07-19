@@ -50,10 +50,15 @@ export const fetchSkins = () => client.get('/skin')
  * 语音鉴赏
  */
 
-export const voiceList = () => client.get('/voiceNav')
+export const fetchvoiceNav = () => client.get('/voiceNav')
 
 /**
  * 某位英雄语音鉴赏
  */
 
-export const voiceDetail = id => client.get(`/voiceDetail/${id}`)
+export const voiceDetail = id =>
+    client.get(`/voiceDetail`, {
+        params: {
+            id
+        }
+    })

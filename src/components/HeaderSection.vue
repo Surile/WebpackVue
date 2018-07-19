@@ -10,6 +10,9 @@
       <li>
         <router-link to="/skins">皮肤鉴赏</router-link>
       </li>
+      <li>
+        <router-link to="/voice">语音鉴赏</router-link>
+      </li>
     </ul>
   </header>
 </template>
