@@ -1,19 +1,18 @@
 # 王者荣耀故事集
 
-## 安装依赖
+> ✎ 线上预览
+
+    https://surile.github.io/WebpackVue/#/
+
+## 本地运行
 
 ```shell
-yarn install
+yarn install || npm install
+yarn start || npm start
 ```
 
-## 运行项目
+## 打包上传
 
 ```shell
-yarn start
-```
-
-## 打包
-
-```shell
-yarn build
+yarn build || npm build
 ```
