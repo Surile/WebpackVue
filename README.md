@@ -2,7 +2,7 @@
 
 > ✎ 线上预览
 
-[线上预览](https://surile.github.io/WebpackVue/ "王者荣耀故事集")  
+查看：[https://surile.github.io/WebpackVue/](https://surile.github.io/WebpackVue/ '王者荣耀故事集')
 
 ## 本地运行
 
