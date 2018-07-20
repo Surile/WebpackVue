@@ -27,7 +27,7 @@
                                 <span class="icon" :class="classIndex === index && show ? 'play' : 'init'" @click="startPlayOrPause(item,index)"></span>
                             </li>
                         </ul>
-                        <audio ref="audio" :src="autionSrc" controls="controls"></audio>
+                        <audio ref="audio" style="display:none" :src="autionSrc" controls="controls"></audio>
                     </div>
                 </div>
                 <div v-else>
