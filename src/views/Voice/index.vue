@@ -94,14 +94,14 @@ export default {
                     console.log(err)
                 })
         },
+        currentTime() {
+            if (this.$refs.audio.duration === this.$refs.audio.curcurrentTime) {
+                this.show = true
+            }
+        },
         startPlayOrPause: function(item, index) {
             this.$refs.audio.src = item.yyyp1_1f
-            if (this.playNumber === 0) {
-                !this.show ? this.$refs.audio.play() : this.$refs.audio.pause()
-                this.playNumber = 1
-            } else if (this.playNumber === 1) {
-                this.show ? this.$refs.audio.pause() : this.$refs.audio.play()
-            }
+            this.show ? this.$refs.audio.pause() : this.$refs.audio.play()
             this.show = !this.show
             this.classIndex = index
         }
