@@ -70,8 +70,6 @@ export default {
     created() {
         this.getHeroNav()
         this.vosicDetail()
-        // this.startPlayOrPause()
-        console.log(this.$refs.audio)
     },
     methods: {
         getHeroNav: function() {
