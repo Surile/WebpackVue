@@ -95,9 +95,9 @@ export default {
                 })
         },
         startPlayOrPause: function(item, index) {
+            this.$refs.audio.src = item.yyyp1_1f
             if (this.playNumber === 0) {
-                this.$refs.audio.src = item.yyyp1_1f
-                !this.show ? this.$refs.audio.play() : this.$
+                !this.show ? this.$refs.audio.play() : this.$refs.audio.pause()
                 this.playNumber = 1
             } else if (this.playNumber === 1) {
                 this.show ? this.$refs.audio.pause() : this.$refs.audio.play()
